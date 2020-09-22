@@ -12,7 +12,6 @@ const binarySearch = function (arr, target) {
   let steps = 0;
 
   while (arr[middle] !== target) {
-    // console.log(middle);
 
     if(arr[middle] < target) {
       left = middle;
@@ -27,20 +26,6 @@ const binarySearch = function (arr, target) {
   return `It's ${middle}st/nd/rd/th number and takes ${steps} steps.`;
 };
 
-
-
-
-
 console.log(binarySearch(testArray, 19));
 console.log(binarySearch(testArray, 12));
 console.log(binarySearch(testArray, 26));
-
-// find the middlepoint
-
-// let middle =
-
-//   console.log(arr[middle]);
-
-//loop
-// if(testArry[middle] !== target) {
-// }
